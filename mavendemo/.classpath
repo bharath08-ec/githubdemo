@@ -98,5 +98,7 @@
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1222/Desktop/New folder (2)/selenium-api-2.47.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1222/Desktop/New folder (2)/selenium-chrome-driver-2.47.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1222/Desktop/New folder (2)/selenium-remote-driver-2.47.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1222/Desktop/Selinium extract/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/BLTuser.BLT1222/Desktop/Selinium extract/protobuf-java-2.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
