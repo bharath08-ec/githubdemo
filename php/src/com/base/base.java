@@ -20,7 +20,7 @@ public void url(String browser,String link)
 {   try {
 	if(browser.equalsIgnoreCase("chrome"))
 	{
-		System.setProperty("webdriver.chrome.driver","Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\BLTuser.BLT1222\\\\Desktop\\\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
 	else if(browser.equalsIgnoreCase("firefox"))

@@ -13,7 +13,7 @@ public class AlertHandling {
 		WebDriver driver=new ChromeDriver();
 	    driver.get("http://www.busindia.com/PRTC-Pondicherry-Online-Booking.jsp ");
 	    driver.manage().window().maximize();
-	    
+	  
 	    //Alert cant be inspected
 	   driver.findElement(By.xpath("//*[@id=\"searchForm\"]/div[3]/div[1]/div/div/div/div[1]/div[8]/button")).click();
 	   Alert a=driver.switchTo().alert();
