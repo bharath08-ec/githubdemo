@@ -24,13 +24,14 @@ public void product_store()
 }
 public void Click_monitor() throws InterruptedException
 {
-	Thread.sleep(3000);
+	
 	driver.findElement(Monitors).click();
+	Thread.sleep(3000);
 }
 public void printprice() throws InterruptedException
 {
 	
-	Thread.sleep(3000);
+	
 	driver.findElement(Applemonitors).click();
 	Thread.sleep(3000);
 	String s1=driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/h3")).getText();

@@ -1,8 +1,6 @@
 package com.StepDefinition;
 
 import com.Pages.Printprice_pages;
-
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,32 +10,32 @@ public class Printprice_steps {
 Printprice_pages pp= new Printprice_pages();
 
 @Given("^open the chrome page$")
-public void open_the_chrome_page() {
+public void launching_chrome() {
 pp.launching_chrome();
 }
 
 @When("^user Opens demo app$")
-public void user_Opens_demo_app()  {
+public void product_store()  {
     pp.product_store();
   
 }
 
 @Then("^The user clicks monitors$")
-public void the_user_clicks_monitors() throws InterruptedException  {
+public void Click_monitor() throws InterruptedException  {
    pp.Click_monitor();
 
 }
 
 @Then("^click apple monitor and print price$")
-public void click_apple_monitor_and_print_price() throws InterruptedException {
+public void printprice() throws InterruptedException {
    pp.printprice();
   
 }
 
 @And("^close app$")
-public void close_app() throws Throwable {
+public void close()  {
   pp.close();
-    throw new PendingException();
+   
 }
 
 }
