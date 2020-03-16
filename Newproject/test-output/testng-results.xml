@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27649" started-at="2020-03-11T12:14:26Z" finished-at="2020-03-11T12:14:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27649" started-at="2020-03-11T12:14:26Z" finished-at="2020-03-11T12:14:54Z">
+      <class name="Com.testcase.testcurrency">
+        <test-method status="PASS" signature="launch()[pri:0, instance:Com.testcase.testcurrency@cc285f4]" name="launch" is-config="true" duration-ms="17268" started-at="2020-03-11T12:14:26Z" finished-at="2020-03-11T12:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Com.testcase.testcurrency@cc285f4]" name="test1" duration-ms="9069" started-at="2020-03-11T12:14:43Z" finished-at="2020-03-11T12:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:Com.testcase.testcurrency@cc285f4]" name="after" is-config="true" duration-ms="1271" started-at="2020-03-11T12:14:52Z" finished-at="2020-03-11T12:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- Com.testcase.testcurrency -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
